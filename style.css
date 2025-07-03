@@ -1,0 +1,404 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Top bar */
+.top-bar {
+  background-color: #999;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  font-size: 14px;
+}
+
+.top-bar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+/* Logo and company info */
+.logo-bar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #dedede;
+}
+
+.logo {
+  height: 80px;
+  margin-right: 20px;
+}
+
+.company-info h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.company-info p {
+  margin: 4px 0 0;
+  font-size: 14px;
+}
+
+/* Navigation */
+.main-nav {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.main-nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Main content */
+.content {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+  margin-top: 40px;
+}
+
+/* Intro section */
+.intro h2 {
+  font-size: 26px;
+  color: #b30000;
+  margin-bottom: 10px;
+}
+
+.intro h3 {
+  font-size: 20px;
+  color: #003366;
+  margin-top: 20px;
+}
+
+.intro p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.shop-now {
+  display: block;
+  margin: 20px auto;
+  max-width: 250px;
+}
+
+/* Product showcase */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.product {
+  width: 200px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.product p {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Notice section */
+.notice {
+  background-color: #fff;
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+.notice img {
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+
+.notice p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+
+.top-bar {
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 13px;
+  border-bottom: 1px solid #ccc;
+}
+
+.top-bar a {
+  color: #333;
+  font-weight: bold;
+}
+
+.intro h2 {
+  font-size: 24px;
+  color: #003366;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.intro h3 {
+  font-size: 18px;
+  color: #cc0000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contact-button {
+  display: block;
+  margin: 10px 0 30px auto;
+  max-width: 232px;
+  height: auto;
+}
+
+.notice {
+  background-color: #fff;
+  margin-top: 40px;
+  padding: 20px;
+  text-align: left;
+  border: 2px solid #ffcc00;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.notice img {
+  max-width: 150px;
+  height: auto;
+}
+
+.site-footer {
+  background-color: #505050;
+  color: #ddd;
+  font-size: 13px;
+}
+
+.footer-top {
+  border: none;
+}
+
+.footer-nav a {
+  color: #ccc;
+  font-size: 13px;
+}
+
+.footer-bottom {
+  background-color: #ddd;
+  color: #333;
+  font-size: 12px;
+}
+
+.social-icons img {
+  width: 24px;
+  margin-right: 8px;
+  opacity: 0.8;
+}
+
+/* Center main content more like the reference */
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  color: #555; /* Softer text like original */
+}
+
+/* Adjust intro headings */
+.intro h2 {
+  font-size: 22px;
+  color: #003366;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.intro h3 {
+  font-size: 18px;
+  color: #b30000;
+  font-weight: bold;
+}
+
+.intro p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+/* Group red gif and blue button to right */
+.shop-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.shop-now {
+  width: 200px;
+}
+
+.contact-button {
+  width: 232px;
+  height: auto;
+}
+
+/* Product section header */
+.product-intro h2 {
+  text-align: center;
+  font-size: 18px;
+  color: #003366;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* Product cards consistent spacing */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px 30px;
+  margin-bottom: 60px;
+}
+
+.product p {
+  font-size: 14px;
+  color: #003366;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.shop-group .shop-now {
+  margin: 0;
+}
+
+.intro-layout {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.intro-text {
+  flex: 2;
+}
+
+.shop-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.filter-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 18px;
+  background-color: #cc0000;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.filter-button:hover {
+  background-color: #a80000;
+}
+
+/* Filter page layout */
+.filter-layout {
+  display: flex;
+  gap: 40px;
+  width: 100%;
+  margin-left: 0;
+  margin-right: auto;
+
+}
+
+.content-wide {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Left filter box */
+.filter-box {
+  width: 260px;
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.filter-box h2 {
+  margin-top: 0;
+  font-size: 20px;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.filter-form label {
+  font-weight: bold;
+}
+
+.filter-form select {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.filter-form button {
+  margin-top: 10px;
+  background-color: #ffcc00;
+  color: #003366;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.filter-form button:hover {
+  background-color: #e6b800;
+}
+
+/* Placeholder right content */
+.filter-results {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  min-width: 0;
+  max-width: 1500px;
+}
+
+main.filter-layout {
+  margin-top: 60px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Filter Machines</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top-bar">
+    <div class="top-links">
+      <a href="#">En Español</a> |
+      <a href="#">Contact Us</a> |
+      <a href="#">Shop Now</a>
+    </div>
+    <div class="top-phone">
+      <span>563.391.7700</span> |
+      <span>563.285.2435</span>
+    </div>
+  </header>
+
+  <div class="logo-bar">
+    <img src="media/ercolina-logo.png" alt="Ercolina Logo" class="logo" />
+    <div class="company-info">
+      <h1>CML USA, Inc.</h1>
+      <p>North American Office Of Ercolina® Tube Benders</p>
+    </div>
+  </div>
+
+  <nav class="main-nav">
+    <a href="#">MACHINES</a> |
+    <a href="#">TOOLING</a> |
+    <a href="#">RESOURCES</a> |
+    <a href="#">ABOUT US</a> |
+    <a href="index.html">HOME</a>
+  </nav>
+
+  <main class="content-wide filter-layout">
+    <!-- BLUE FILTER BOX ON LEFT -->
+    <aside class="filter-box">
+      <h2>Filter Machines</h2>
+
+      <form action="#" method="GET" class="filter-form">
+        <label for="material">Material:</label>
+        <select id="material" name="material">
+          <option value="">-- Select --</option>
+          <option value="steel">Steel</option>
+          <option value="aluminum">Aluminum</option>
+          <option value="copper">Copper</option>
+        </select>
+
+        <label for="bend">Bend Type:</label>
+        <select id="bend" name="bend">
+          <option value="">-- Select --</option>
+          <option value="tube">Tube Bending</option>
+          <option value="pipe">Pipe Bending</option>
+          <option value="profile">Profile Bending</option>
+        </select>
+
+        <label for="capacity">Capacity:</label>
+        <select id="capacity" name="capacity">
+          <option value="">-- Select --</option>
+          <option value="small">Small (1-2")</option>
+          <option value="medium">Medium (2-4")</option>
+          <option value="large">Large (4+")</option>
+        </select>
+
+        <button type="submit">Show Results</button>
+      </form>
+    </aside>
+
+    <!-- RIGHT SIDE (for results in the future) -->
+    <section class="filter-results">
+      <p>Filtered machine results will display here...</p>
+    </section>
+  </main>
+</body>
+</html>
